@@ -2,15 +2,13 @@ body{
 	background: #bce5ff;
 }
 
-#message{
-	font-family: helvetica;
-	font-size: 36px;
-	position: relative;
-	top: 10px;
-	left: 110px;
-	width: 365px;
-	height: 40px;
-	visibility: hidden;
+
+#designedBy{
+	position: absolute;
+	font-size: 20px;
+	font-family: Brush Script MT;
+	top: 748px;
+	left: 574px;
 }
 
 #christmastree{
