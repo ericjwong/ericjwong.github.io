@@ -1,0 +1,101 @@
+body{
+	background: #bce5ff;
+}
+
+#message{
+	font-family: helvetica;
+	font-size: 36px;
+	position: relative;
+	top: 10px;
+	left: 110px;
+	width: 365px;
+	height: 40px;
+	visibility: hidden;
+}
+
+#christmastree{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 10;
+	height: 800px;
+	width: 600px;
+}
+
+.bulb{
+	position: absolute;
+	height: 50px;
+	width: 40px;
+}
+
+.bulb_face{
+	position: absolute;
+	height: 89px;
+	width: 70px;
+}
+
+.face{
+	position: absolute;
+	height: 64px;
+	width: 64px;
+	
+}
+
+#messageBubble{
+	position: absolute;
+	border: 3px solid #525454;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	background-clip: padding-box;
+	height: 100px;
+	width: 400px;
+	top: 200px;
+	left: 450px;
+	padding: 15px;
+	visibility: hidden;
+}
+
+#messageInitial{
+	position: absolute;
+	visibility: visible;
+	font-size: 36px;
+	font-family: Brush Script MT;
+}
+
+#messageAndrew{
+	position: absolute;
+	visibility: hidden;
+	font-size: 36px;
+	font-family: Brush Script MT;
+}
+
+#messageChris{
+	position: absolute;
+	visibility: hidden;
+	font-size: 36px;
+	font-family: Brush Script MT;
+}
+
+#messageDad{
+	position: absolute;
+	visibility: hidden;
+	font-size: 36px;
+	font-family: Brush Script MT;
+}
+
+#messageEric{
+	position: absolute;
+	visibility: hidden;
+	font-size: 36px;
+	font-family: Brush Script MT;
+}
+
+#messageMom{
+	position: absolute;
+	visibility: hidden;
+	font-size: 36px;
+	font-family: Brush Script MT;
+}
+
+input:focus {outline:0;}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+		<img id="christmastree" src="1407143_56519672.png"/>
+		
+		<img class="bulb_face" src="purple_bulb.png" style="top: 285px; left: 270px;"/>
+		<input type="image" class="face" src="Andrew.png" style="top: 307px; left: 274px;" onclick="andrewMessage()"/>
+		
+		<img class="bulb" src="blue_bulb.png" style="top: 385px; left: 230px;"/>
+		
+		<img class="bulb_face" src="red_bulb.png" style="top: 400px; left: 330px;"/>
+		<input type="image" class="face" src="Chris.png" style="top: 421px; left: 332px;" onclick="chrisMessage()"/>
+		
+		<img class="bulb_face" src="green_bulb.png" style="top: 510px; left: 220px;"/>
+		<input type="image" class="face" src="Dad.png" style="top: 532px; left: 223px;" onclick="dadMessage()"/>
+		
+		<img class="bulb" src="blue_bulb.png" style="top: 515px; left: 375px;"/>
+		
+		<img class="bulb_face" src="orange_bulb.png" style="top: 620px; left: 120px;"/>
+		<input type="image" class="face" src="Mom.png" style="top: 641px; left: 123px;" onclick="momMessage()"/>
+		
+		<img class="bulb" src="purple_bulb.png" style="top: 620px; left: 260px;"/>
+		
+		<img class="bulb_face" src="red_bulb.png" style="top: 625px; left: 400px;"/>
+		<input type="image" class="face" src="Eric.png" style="top: 647px; left: 403px;" onclick="ericMessage()"/>
+		
+		<img class="bulb" src="blue_bulb.png" style="top: 740px; left: 150px;"/>
+		<img class="bulb" src="green_bulb.png" style="top: 730px; left: 300px;"/>
+		<img class="bulb" src="orange_bulb.png" style="top: 725px; left: 425px;"/>
+		
+		<div id="messageBubble">
+			<div id="messageInitial">Merry Christmas from the Wongs!
+				<p style="font-size: 28px;">Click our faces for our messages</p>
+			</div>
+			<div id="messageAndrew">Season's Eatings! Wishing you lots of joy, health and deliciousness for the new year</div>
+			<div id="messageChris">♪♪"Simply having a wonderful Christmas time"♫
+				<p style="font-size: 21px;">('cause this year little brother is doing the e-card. Yeah!)</p>
+			</div>
+			<div id="messageDad">Happy Holidays and all the best for 2015...</div>
+			<div id="messageMom">My wish for a healthy, happy & peaceful New Year to all!</div>
+			<div id="messageEric">Hope you all have a happy holiday and here's to a great new year!</div>
+		</div>
+		
+		<div id="message">MERRY CHRISTMAS!</div>
+		
+		<script>
+		function andrewMessage() {
+			document.getElementById("messageInitial").style.visibility = "hidden";
+			document.getElementById("messageAndrew").style.visibility = "visible";
+			document.getElementById("messageChris").style.visibility = "hidden";
+			document.getElementById("messageDad").style.visibility = "hidden";
+			document.getElementById("messageEric").style.visibility = "hidden";
+			document.getElementById("messageMom").style.visibility = "hidden";
+		}
+		function chrisMessage() {
+			document.getElementById("messageInitial").style.visibility = "hidden";
+			document.getElementById("messageAndrew").style.visibility = "hidden";
+			document.getElementById("messageChris").style.visibility = "visible";
+			document.getElementById("messageDad").style.visibility = "hidden";
+			document.getElementById("messageEric").style.visibility = "hidden";
+			document.getElementById("messageMom").style.visibility = "hidden";
+		}
+		function dadMessage() {
+			document.getElementById("messageInitial").style.visibility = "hidden";
+			document.getElementById("messageAndrew").style.visibility = "hidden";
+			document.getElementById("messageChris").style.visibility = "hidden";
+			document.getElementById("messageDad").style.visibility = "visible";
+			document.getElementById("messageEric").style.visibility = "hidden";
+			document.getElementById("messageMom").style.visibility = "hidden";
+		}
+		function ericMessage() {
+			document.getElementById("messageInitial").style.visibility = "hidden";
+			document.getElementById("messageAndrew").style.visibility = "hidden";
+			document.getElementById("messageChris").style.visibility = "hidden";
+			document.getElementById("messageDad").style.visibility = "hidden";
+			document.getElementById("messageEric").style.visibility = "visible";
+			document.getElementById("messageMom").style.visibility = "hidden";
+		}
+		function momMessage() {
+			document.getElementById("messageInitial").style.visibility = "hidden";
+			document.getElementById("messageAndrew").style.visibility = "hidden";
+			document.getElementById("messageChris").style.visibility = "hidden";
+			document.getElementById("messageDad").style.visibility = "hidden";
+			document.getElementById("messageEric").style.visibility = "hidden";
+			document.getElementById("messageMom").style.visibility = "visible";
+		}
+		</script>
+	</body>
+	
+
+</html>
